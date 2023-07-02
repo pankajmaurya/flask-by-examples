@@ -1,0 +1,15 @@
+<!-- dashboard.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ user_id }}</h1>
+
+    <p>Your user ID: {{ user_id }}</p>
+
+    <p><a href="{{ url_for('logout') }}">Logout</a></p>
+</body>
+</html>
